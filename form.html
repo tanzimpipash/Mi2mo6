@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style/nav.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li> <a href="home.html">Home</a></li>
+            <li> <a href="table.html">Table</a></li>
+            <li> <a href="form.html">Form</a></li>
+            <li><a href="semantic.html">Semantic</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <h1>Jamaler Ma Special Pitha Expo</h1>
+    <form action="">
+        <p>Name :
+            <input type="text" placeholder="Enter Your Name">
+        </p>
+        <p>Email :
+            <input type="text" placeholder="Enter Your Email">
+        </p>
+        <fieldset>
+            <legend>Select your Pitha</legend>
+            <p>
+                <label for="Chitoy">
+                    <input type="radio" name="Pitha" id="Chitoy">Chitoy</label>
+            </p>
+            <p>
+                <label for="vapa"><input type="radio" name="Pitha" id="vapa">Vapa</label>
+            </p>
+            <p>
+                <label for="Tel er Pitha"> <input type="radio" name="Pitha" id="Tel er Pitha">Tel er
+                    Pitha</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select your Vorta</legend>
+            <p><label for="Sorisha"><input type="checkbox" name="vorta" id="Sorisha"></label>Sorisha</p>
+            <p><label for="Kasundi"><input type="checkbox" name="vorta" id="Kasundi"></label>Kasundi</p>
+            <p><label for="Dhoniya"><input type="checkbox" name="vorta" id="Dhoniya"></label>Dhoniya</p>
+            <p><label for="Begun"><input type="checkbox" name="vorta" id="Begun"></label>Begun</p>
+        </fieldset>
+        <p>Special Instruction<br>
+            <textarea name="si" id="" cols="30" rows="10">Make it....</textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
